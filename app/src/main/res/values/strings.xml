@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">THA_APP_194125D</string>
+    <string name="app_title">Cake Bakers</string>
+    <string name="cake_title">Chocolate Cake</string>
+    <string name="cake_desc">Chocolate flavour icing cake</string>
+    <string name="cake_price">LKR 2500</string>
+    <string name="cake_edit_button">Edit</string>
 </resources>
