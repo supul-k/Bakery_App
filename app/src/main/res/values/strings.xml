@@ -6,6 +6,6 @@
     <string name="cake_price">LKR 2500</string>
     <string name="cake_edit_button">Edit</string>
     <string name="cake_name_add">Cake Name</string>
-    <string name="cake_price_add">Cake Description</string>
-    <string name="cake_desc_add">Cake Price</string>
+    <string name="cake_desc_add">Cake Description</string>
+    <string name="cake_price_add">Cake Price</string>
 </resources>

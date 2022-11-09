@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".add_cake">
+    tools:context=".activity_add_cake">
 
     <TextView
         android:id="@+id/topic"
@@ -29,12 +29,70 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textCakeName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
-        android:textSize="15dp" android:text="@string/cake_name_add"
+        android:textSize="20dp"
+        android:text="@string/cake_name_add"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <EditText
+        android:id="@+id/editTextTextCakeName"
+        android:layout_width="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCakeName" />
+
+    <TextView
+        android:id="@+id/textCakeDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="@string/cake_desc_add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextCakeName" />
+
+    <EditText
+        android:id="@+id/editTextCakeDesc"
+        android:layout_width="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCakeDesc" />
+
+    <TextView
+        android:id="@+id/textCakePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="@string/cake_price_add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCakeDesc" />
+
+    <EditText
+        android:id="@+id/editTextCakePrice"
+        android:layout_width="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCakePrice" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
